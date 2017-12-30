@@ -1,6 +1,6 @@
-# Sitemap parser
+# Sitemap getter (parser)
 
-Yes, another parser. But unlike the others, it returns the *entire* information from the sitemap, not only the list of URLs.
+Yes, another parser. But unlike the others, it returns the *entire* information from a sitemap, not only the list of URLs.
 
 ## Installation
 
@@ -24,10 +24,10 @@ Note that the result stream works in `object mode`, so you will need to make a t
 
 Result:
 ~~~~
-{ loc: 'https://foreignsky.ru/' }
-{ loc: 'https://foreignsky.ru/pzwfCkCN2KmjRRERX',
+{ loc: 'https://your-website.com/' }
+{ loc: 'https://your-website.com/pzwfCkCN2KmjRRERX',
   lastmod: 2017-07-09T22:00:00.000Z }
-{ loc: 'https://foreignsky.ru/wNppu4ncxfS2fQ6to',
+{ loc: 'https://your-website.com/wNppu4ncxfS2fQ6to',
   lastmod: 2017-12-20T18:28:53.000Z }
 ~~~~
 
