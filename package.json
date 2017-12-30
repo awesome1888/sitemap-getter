@@ -12,6 +12,10 @@
   "author": "Sergei Gannochenko",
   "email": "gannochenko.sv@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/awesome1888/sitemap-getter"
+  },
   "dependencies": {
     "sax": "^1.2.4",
     "underscore": "^1.8.3"
