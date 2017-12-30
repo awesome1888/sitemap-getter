@@ -1,22 +1,26 @@
 {
   "name": "sitemap-getter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetch sitemap entirely or using streams",
   "main": "dst/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "sitemap", "get", "parse", "stream"
+    "sitemap",
+    "get",
+    "parse",
+    "stream"
   ],
   "author": "Sergei Gannochenko",
   "email": "gannochenko.sv@gmail.com",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/awesome1888/sitemap-getter"
+    "type": "git",
+    "url": "https://github.com/awesome1888/sitemap-getter"
   },
   "dependencies": {
+    "regenerator-runtime": "^0.11.1",
     "sax": "^1.2.4",
     "underscore": "^1.8.3"
   },

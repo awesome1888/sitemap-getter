@@ -5,6 +5,10 @@ import _ from 'lodash';
 
 import ResultStream from './lib/stream.js';
 
+// to make babel-ed async functions work..
+// todo: prepend it automatically on build
+const regeneratorRuntime = require("regenerator-runtime");
+
 export default class SitemapParser
 {
     static async createStreamLocations(url, parameters = {})

@@ -32,13 +32,17 @@ function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, a
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+// to make babel-ed async functions work..
+// todo: prepend it automatically on build
+var regeneratorRuntime = require("regenerator-runtime");
+
 var SitemapParser = function () {
     function SitemapParser() {
         _classCallCheck(this, SitemapParser);
     }
 
     _createClass(SitemapParser, null, [{
-        key: 'createStream',
+        key: 'createStreamLocations',
         value: function () {
             var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(url) {
                 var parameters = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -76,14 +80,14 @@ var SitemapParser = function () {
                 }, _callee, this);
             }));
 
-            function createStream(_x2) {
+            function createStreamLocations(_x2) {
                 return _ref.apply(this, arguments);
             }
 
-            return createStream;
+            return createStreamLocations;
         }()
     }, {
-        key: 'get',
+        key: 'getLocations',
         value: function () {
             var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(url) {
                 var parameters = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -126,11 +130,11 @@ var SitemapParser = function () {
                 }, _callee2, this);
             }));
 
-            function get(_x4) {
+            function getLocations(_x4) {
                 return _ref2.apply(this, arguments);
             }
 
-            return get;
+            return getLocations;
         }()
     }, {
         key: 'getSaxStream',
