@@ -53,6 +53,7 @@ Result:
 * Handling of HTTP 301 and 302 is not implemented
 * Getting sitemap URL from robots.txt is not implemented
 * Handling nested sitemaps is not implemented
+* The minimal version of `NodeJS` to run at is `4.8`, but you can go to `.gulpfile`, set the other number and re-build the package with `gulp` command.
 
 Feel free to make some PRs and\or forks.
 

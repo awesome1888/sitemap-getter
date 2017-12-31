@@ -1,6 +1,6 @@
 {
   "name": "sitemap-getter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fetch sitemap entirely or using streams",
   "main": "dst/index.js",
   "scripts": {
@@ -20,9 +20,9 @@
     "url": "https://github.com/awesome1888/sitemap-getter"
   },
   "dependencies": {
+    "lodash": "^4.17.4",
     "regenerator-runtime": "^0.11.1",
-    "sax": "^1.2.4",
-    "underscore": "^1.8.3"
+    "sax": "^1.2.4"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
